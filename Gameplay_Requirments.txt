@@ -1,0 +1,78 @@
+1. Give a brief description of how your game is played and what (if any) game it is based off
+of.
+
+Sorry -x- Mario Cart = Mario Party
+
+2. Your game must have some sort of "playing field"—a board, where cards are displayed,
+etc, showing the current state of the game. Briefly describe what yours will look like.
+
+the board is the playing field. It will have one set path, and will have the same
+layout as the Sorry board.
+
+3. Your game must have a consistent theme. What will it be?
+
+figure that out later:
+	1) Generic board game (sorry)
+	2) Mario Party
+	3) Midevil themed
+
+4. You must have at least 3 different types of resource/game piece/card that
+are related to each other. What are they?
+a. These should be represented by one struct/enum class/class that you will define
+
+	1) Game Pieces (3 types of clones that move in different ways)
+	2) Power up Cards
+	3) Coins to buy Powerup
+
+There are 3 different game pieces that CLONE from a generic piece
+	Similarity {
+		position on board
+		player that controls it
+	}
+	Difference {
+		How it moves
+	}
+	
+	Messanger_Piece: Moves what the number rolled was
+	Rogue_Piece: Moves backwards around the board
+	Knight_Piece: Move from 1 to number rolled spaces
+
+5. Players must be able to acquire the items from #4. How?
+
+- Players land on a space that gives them an item
+- Players pass a space that give them coins
+- Players pass a shop to spend coins to get an item
+- Players can only hold hold one item
+- If a piece lands on another piece, then the first piece moves back home (even if it is friendly)
+
+6. You must have at least 2 different buildings/structures/upgrades/power-ups that are
+related to one another. What are they?
+
+These should be represented either  by one base class and one derived class or
+by different instances of the same class, as appropriate for your implementation.
+
+(Implemented as one base class and one derived class)
+
+1) Move faster
+2) Hinder Movment
+3) Swap places
+4) Stop Kill/Sorry move
+
+7. Your game must be multiplayer. How many players will you allow?
+
+4
+
+8. Your game must have well-defined begin and end states. What are they?
+
+Begin state - All pieces at the starting location (home/forest)
+End state - One player with all pieces at end location (Fortress/City)
+
+9. (Do you have any other features that you are hoping to incorporate?)
+
+Not really, I am trying to keep this game simple.
+
+Extra Credit (If time)
+(5 points) The computer must be able to control any number of the players (including all
+players). What will the basic computer strategy be?
+(5 points) After each game has been simulated, your GUI should display a graph
+showing how many games which player has won so far.
