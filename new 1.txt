@@ -1,0 +1,5 @@
+Changes:
+	1) All pieces move the same
+	2) Board spaces inheret as a clone setup
+	3) Game pieces are set up as a factory
+	4) Click on piece to move piece (if time else button and name)

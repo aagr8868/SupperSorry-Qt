@@ -1,7 +1,7 @@
 1. Give a brief description of how your game is played and what (if any) game it is based off
 of.
 
-Sorry -x- Mario Cart = Mario Party
+Sorry but with items
 
 2. Your game must have some sort of "playing field"—a board, where cards are displayed,
 etc, showing the current state of the game. Briefly describe what yours will look like.
@@ -10,33 +10,33 @@ the board is the playing field. It will have one set path, and will have the sam
 layout as the Sorry board.
 
 3. Your game must have a consistent theme. What will it be?
-
-figure that out later:
-	1) Generic board game (sorry)
-	2) Mario Party
-	3) Midevil themed
+	Midevil themed
+	Pieces are messangers
+	Start in Village
+	End in Keep
 
 4. You must have at least 3 different types of resource/game piece/card that
 are related to each other. What are they?
 a. These should be represented by one struct/enum class/class that you will define
-
-	1) Game Pieces (3 types of clones that move in different ways)
-	2) Power up Cards
-	3) Coins to buy Powerup
-
-There are 3 different game pieces that CLONE from a generic piece
-	Similarity {
-		position on board
-		player that controls it
-	}
-	Difference {
-		How it moves
-	}
 	
-	Messanger_Piece: Moves what the number rolled was
-	Rogue_Piece: Moves backwards around the board
-	Knight_Piece: Move from 1 to number rolled spaces
-
+	generic board space that inherets different states
+		1) Generic - Does nothing
+		2) Movment - moves the piece on it X spaces
+		3) Roll again - Take another turn
+		4) Get Item - Get an item card
+		5) Village - Start space for each player
+		6) Keep - End space for every player
+		
+	Powerups are inherited
+		1) Store a roll
+		2) Increase a roll
+		3) Decrese your roll
+		4) ... mess with other players
+		
+	Generic Inheritance:
+		All cards have looks that are the same
+		Each card has a function that is different
+		
 5. Players must be able to acquire the items from #4. How?
 
 - Players land on a space that gives them an item
@@ -53,10 +53,9 @@ by different instances of the same class, as appropriate for your implementation
 
 (Implemented as one base class and one derived class)
 
-1) Move faster
-2) Hinder Movment
-3) Swap places
-4) Stop Kill/Sorry move
+1) Increase Roll
+2) Decrease Roll
+3) Set Roll
 
 7. Your game must be multiplayer. How many players will you allow?
 
