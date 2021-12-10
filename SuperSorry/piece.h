@@ -1,26 +1,41 @@
 # ifndef piece_h
 # define piece_h
 
-# include "mainwindow.h" // possible issue, check back later
+# include "spaceFactory.h" // possible issue, check back later
 
-class piece{
+class Piece : public QObject, public QGraphicsItem{
+    Q_OBJECT // needed to emit signals
+
     public:
     // constructor
-    piece(const int player);
+    Piece(const int player, const QPointF location, const int x, const int y);
+    Piece(const int player, const int location_x, const int location_y, const int square_x, const int square_y);
+
+    // functions needed to display space on board
+    QRectF boundingRect() const override;
+    QPainterPath shape() const override;
+    void paint(QPainter *painter, const QStyleOptionGraphicsItem *item, QWidget *widget) override;
 
     // getter
-    int getPlayer() const { return player;}
-    QColor getColor() const { return color_;}
+    QColor getPlayer() const { return player_;}
     QPointF getLocation() const { return location_;}
+    int getX() { return squareX;}
+    int getY() { return squareY;}
 
     // setter
     void move(const int numSpaces);
     Space* readSpace();
+    void setLocation(const QPointF location);
+    void setLocation(const int x, int y);
+    void setSquare(const int x, const int y);
 
     private:
-    QColor color_;
+    QColor player_;
     QPointF location_;
-    static int player;
+    int squareX;
+    int squareY;
+    const int size_ =10;
+
 };
 
 #endif // piece_h

@@ -1,0 +1,9 @@
+Changes:
+	1) All pieces move the same way
+	2) Board spaces inheret as a clone setup
+	3) Game pieces are set up as a factory
+	4) Click on piece to move piece (if time else button and name like in paintUI)
+	5) Perhaps only one piece per player
+	...) Add Move button? (figure out in implementation)
+	
+	Also eddited Gamepay_Requirments.txt as we were descussing

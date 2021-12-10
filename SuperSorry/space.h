@@ -2,7 +2,6 @@
 #define SPACE_H
 
 #include <QGraphicsItem>
-#include <vector>
 #include "colors.cpp"
 
 // any object that inherits from QObject can emit signals

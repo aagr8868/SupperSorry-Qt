@@ -4,9 +4,8 @@
 #include <QMainWindow>
 #include <QGraphicsScene>
 #include <QGraphicsView>
-#include <vector>
 
-#include "spaceFactory.h"
+#include "board.hpp"
 
 namespace Ui { class MainWindow; }
 
@@ -21,7 +20,6 @@ public:
 private:
     Ui::MainWindow *ui;
     QGraphicsScene *scene;
-    std::vector<Space*> board_;
-    bool boolboard_ [13][13];
+    Board& boardInstance = Board::getInstance();
 };
 #endif // MAINWINDOW_H

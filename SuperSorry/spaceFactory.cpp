@@ -25,11 +25,8 @@ Space* SpaceFactory::createSpace(const int type, const QPointF center, const int
         case -1:
             space = new Space(center, playerColor);
             break;
-        case -2:
+        case 0:
             space = new Space(center,green);
-            break;
-        case -3:
-            space = new Space(center,playerColor);
             break;
         case 1:
             space = new Space(center,white);
@@ -72,7 +69,7 @@ Space* SpaceFactory::createSpace(const int type, const int x, const int y, const
         case -1: // start or safespace
             space = new Space(x, y, playerColor);
             break;
-        case 0: // end
+        case -2: // end
             space = new Space(x,y,green);
             break;
         case 1: // empty

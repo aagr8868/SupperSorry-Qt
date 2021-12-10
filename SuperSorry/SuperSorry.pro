@@ -14,13 +14,15 @@ SOURCES += \
     space.cpp \
     spaceFactory.cpp \
     colors.cpp \
-    piece.cpp
+    piece.cpp \
+    board.cpp
 
 HEADERS += \
     mainwindow.h \
     space.h \
     spaceFactory.h \
-    piece.h
+    piece.h \
+    board.hpp
 
 FORMS += \
     mainwindow.ui
