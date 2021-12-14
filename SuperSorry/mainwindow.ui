@@ -24,22 +24,12 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="GreenItem">
-    <property name="geometry">
-     <rect>
-      <x>690</x>
-      <y>356</y>
-      <width>99</width>
-      <height>89</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="RedButton">
     <property name="geometry">
      <rect>
       <x>690</x>
       <y>33</y>
-      <width>99</width>
+      <width>101</width>
       <height>24</height>
      </rect>
     </property>
@@ -65,7 +55,7 @@
      <rect>
       <x>690</x>
       <y>180</y>
-      <width>99</width>
+      <width>101</width>
       <height>24</height>
      </rect>
     </property>
@@ -78,7 +68,7 @@
      <rect>
       <x>690</x>
       <y>473</y>
-      <width>99</width>
+      <width>101</width>
       <height>24</height>
      </rect>
     </property>
@@ -91,22 +81,12 @@
      <rect>
       <x>690</x>
       <y>326</y>
-      <width>99</width>
+      <width>101</width>
       <height>24</height>
      </rect>
     </property>
     <property name="text">
      <string>Use Item</string>
-    </property>
-   </widget>
-   <widget class="QGraphicsView" name="RedItem">
-    <property name="geometry">
-     <rect>
-      <x>690</x>
-      <y>63</y>
-      <width>99</width>
-      <height>89</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="BlueLable">
@@ -122,16 +102,6 @@
      <string>Blue</string>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="PurpleItem">
-    <property name="geometry">
-     <rect>
-      <x>690</x>
-      <y>503</y>
-      <width>99</width>
-      <height>89</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="PurpleLable">
     <property name="geometry">
      <rect>
@@ -142,7 +112,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Purple</string>
+     <string>Pink</string>
     </property>
    </widget>
    <widget class="QLabel" name="GreenLable">
@@ -155,17 +125,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Green</string>
-    </property>
-   </widget>
-   <widget class="QGraphicsView" name="BlueItem">
-    <property name="geometry">
-     <rect>
-      <x>690</x>
-      <y>210</y>
-      <width>99</width>
-      <height>88</height>
-     </rect>
+     <string>Purple</string>
     </property>
    </widget>
    <widget class="QRadioButton" name="radioButton_2">
@@ -181,32 +141,22 @@
      <string>2</string>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ActivePlayerBox">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>510</y>
-      <width>111</width>
-      <height>91</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QTextBrowser" name="RollDisplay">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>510</y>
-      <width>111</width>
-      <height>91</height>
+      <x>590</x>
+      <y>520</y>
+      <width>81</width>
+      <height>61</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>480</y>
-      <width>91</width>
+      <x>470</x>
+      <y>500</y>
+      <width>71</width>
       <height>16</height>
      </rect>
     </property>
@@ -259,9 +209,9 @@
    <widget class="QPushButton" name="RollButton">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>480</y>
-      <width>111</width>
+      <x>590</x>
+      <y>490</y>
+      <width>81</width>
       <height>24</height>
      </rect>
     </property>
@@ -282,6 +232,162 @@
      <string>Number of Players</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="MoveButton">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>60</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MoveButton_2">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>210</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MoveButton_3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>360</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MoveButton_4">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>500</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Move</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="RedItem">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>90</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="BlueItem">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>240</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="PurpleItem">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>390</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="PinkItem">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>530</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="CurrentPlayer">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>520</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>469</y>
+      <width>321</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>This is a game of sorry. The goal is to get your piece to the</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>the green square in the center. On your turn, roll a 6-sided</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>dice, then move that number of spaces. If you land on a </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>space occupied by an enemy. The enemy moves forward 1.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>If you land on an orange space, move forward 4. If  you</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>land on a yellow space, get a dice roll that you can use later</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -297,294 +403,6 @@
  </widget>
  <resources/>
  <connections>
-  <connection>
-   <sender>radioButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>GreenLable</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>70</x>
-     <y>527</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>712</x>
-     <y>334</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>GreenButton</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>98</x>
-     <y>526</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>698</x>
-     <y>360</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>GreenItem</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>50</x>
-     <y>519</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>695</x>
-     <y>393</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>PurpleLable</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>87</x>
-     <y>521</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>710</x>
-     <y>475</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>PurpleButton</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>38</x>
-     <y>530</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>703</x>
-     <y>501</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>PurpleItem</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>25</x>
-     <y>526</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>709</x>
-     <y>541</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>GreenLable</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>59</x>
-     <y>554</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>721</x>
-     <y>326</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>GreenButton</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>25</x>
-     <y>556</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>696</x>
-     <y>350</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>GreenItem</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>101</x>
-     <y>552</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>706</x>
-     <y>412</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>PurpleLable</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>73</x>
-     <y>559</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>725</x>
-     <y>479</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>PurpleButton</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>45</x>
-     <y>560</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>720</x>
-     <y>504</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>PurpleItem</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>88</x>
-     <y>558</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>705</x>
-     <y>554</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>GreenLable</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>95</x>
-     <y>584</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>744</x>
-     <y>331</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>GreenButton</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>79</x>
-     <y>586</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>720</x>
-     <y>361</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>GreenItem</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>55</x>
-     <y>587</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>712</x>
-     <y>423</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>PurpleLable</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>36</x>
-     <y>587</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>717</x>
-     <y>475</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>PurpleButton</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>65</x>
-     <y>587</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>698</x>
-     <y>506</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>PurpleItem</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>111</x>
-     <y>582</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>755</x>
-     <y>578</y>
-    </hint>
-   </hints>
-  </connection>
   <connection>
    <sender>StartGameButton</sender>
    <signal>clicked()</signal>
@@ -662,6 +480,470 @@
     <hint type="destinationlabel">
      <x>97</x>
      <y>619</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RollButton</sender>
+   <signal>clicked()</signal>
+   <receiver>RollButton</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>613</x>
+     <y>516</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>MoveButton</sender>
+   <signal>clicked()</signal>
+   <receiver>RollButton</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>725</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>603</x>
+     <y>513</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>MoveButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>RollButton</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>722</x>
+     <y>240</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>631</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>MoveButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>RollButton</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>759</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>660</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>MoveButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>RollButton</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>751</x>
+     <y>532</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>621</x>
+     <y>514</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>GreenLable</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>695</x>
+     <y>333</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>GreenButton</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>703</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MoveButton_3</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>519</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>701</x>
+     <y>392</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>PurpleItem</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>27</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>713</x>
+     <y>424</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>PurpleLable</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>525</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>699</x>
+     <y>476</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>PurpleButton</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>99</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>751</x>
+     <y>508</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MoveButton_4</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>52</x>
+     <y>523</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>702</x>
+     <y>534</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>PinkItem</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>41</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>705</x>
+     <y>565</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>GreenLable</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>53</x>
+     <y>552</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>706</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>GreenButton</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>554</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>711</x>
+     <y>365</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MoveButton_3</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>89</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>733</x>
+     <y>390</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>PurpleItem</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>57</x>
+     <y>552</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>709</x>
+     <y>442</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>PurpleLable</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>93</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>732</x>
+     <y>480</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>PurpleButton</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>551</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>719</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MoveButton_4</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>552</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>706</x>
+     <y>537</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>PinkItem</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>30</x>
+     <y>557</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>722</x>
+     <y>560</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>GreenLable</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>64</x>
+     <y>583</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>738</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>GreenButton</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>89</x>
+     <y>586</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>713</x>
+     <y>357</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MoveButton_3</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>104</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>717</x>
+     <y>394</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>PurpleItem</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>578</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>712</x>
+     <y>453</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>PurpleLable</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>30</x>
+     <y>574</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>709</x>
+     <y>478</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>PurpleButton</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>578</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>708</x>
+     <y>508</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MoveButton_4</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>705</x>
+     <y>528</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>PinkItem</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>585</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>713</x>
+     <y>580</y>
     </hint>
    </hints>
   </connection>

@@ -63,3 +63,27 @@ void Board::initalize_typeboard_(){
         } // end for j
     } // end for i
 } // end function
+
+void Board::setpiece(const int index, const int player, const int x, const int y){
+    switch (player){
+    case 1:
+        pieces[index].setPlayer(red);
+        break;
+    case 2:
+        pieces[index].setPlayer(blue);
+        break;
+    case 3:
+        pieces[index].setPlayer(purple);
+        break;
+    case 4:
+        pieces[index].setPlayer(pink);
+        break;
+    default:
+        qDebug() << "sorry but there is no player " << player;
+    }
+
+    pieces[index].setX(x);
+    pieces[index].setY(y);
+    pieces[index].getLocation().setX(start + increment * x);
+    pieces[index].getLocation().setY(start + increment * y);
+}
